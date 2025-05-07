@@ -4,7 +4,7 @@ public class Main {
         int[] table = {4, 12, 6, 10, 18};
         int result = Main.differenceMaxMin (table);
         int[] result2 = twoSmallest(table);
-        double result3 = calculation(26, 12);
+        double result3 = calculation(4, 12);
         System.out.println("Result: " + result);
         System.out.println("The two smallest numbers are " + result2[0] + " and " + result2[1]);
         System.out.println("The result of this calculation is : " + result3);
@@ -58,8 +58,7 @@ public class Main {
         double temp = (4 * y) / 5;
         double temp2 = temp - x;
         double temp3 = temp2 * temp2;
-        double result = x2 + temp3;
 
-        return result;
+        return x2 + temp3;
     }
 }
